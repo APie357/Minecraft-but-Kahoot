@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "kahoot",
+	"version": "${version}",
+	"name": "Minecraft but Kahoot",
+	"description": "why did i make this",
+	"authors": [
+		"APie357"
+	],
+	"contact": {
+		"sources": "https://github.com/APie357/Minecraft-but-Kahoot",
+		"issues": "https://github.com/APie357/Minecraft-but-Kahoot/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/kahoot/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.andrewd1.kahoot.KahootMod"
+		],
+		"client": [
+			"dev.andrewd1.kahoot.KahootModClient"
+		],
+		"fabric-datagen": [
+			"dev.andrewd1.kahoot.KahootModDataGenerator"
+		]
+	},
+	"mixins": [
+		"kahoot.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {}
+}
