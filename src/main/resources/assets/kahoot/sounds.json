@@ -1,0 +1,22 @@
+{
+  "lobby": {
+    "sounds": [
+      "kahoot:lobby"
+    ]
+  },
+  "lobby_8bit": {
+    "sounds": [
+      "kahoot:lobby_8bit"
+    ]
+  },
+  "gong": {
+    "sounds": [
+      "kahoot:gong"
+    ]
+  },
+  "answer_20s": {
+    "sounds": [
+      "kahoot:answer_20s"
+    ]
+  }
+}

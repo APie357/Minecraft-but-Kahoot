@@ -1,7 +1,7 @@
 package dev.andrewd1.kahoot;
 
+import dev.andrewd1.kahoot.sounds.SoundManager;
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +11,7 @@ public class KahootMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		SoundManager.register();
 		LOGGER.info("minecraft but kahoot, wait thats so cursed why did i think of that");
 	}
 }
