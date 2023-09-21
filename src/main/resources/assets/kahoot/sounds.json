@@ -1,12 +1,12 @@
 {
   "lobby": {
     "sounds": [
-      "kahoot:lobby"
+      "kahoot:lobby/original"
     ]
   },
   "lobby_8bit": {
     "sounds": [
-      "kahoot:lobby_8bit"
+      "kahoot:lobby/8bit"
     ]
   },
   "gong": {
@@ -16,7 +16,9 @@
   },
   "answer_20s": {
     "sounds": [
-      "kahoot:answer_20s"
+      "kahoot:answer/20s/original",
+      "kahoot:answer/20s/groovy",
+      "kahoot:answer/20s/climbing"
     ]
   }
 }
