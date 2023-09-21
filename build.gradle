@@ -45,10 +45,7 @@ sourceSets {
 }
 
 repositories {
-	maven {
-		name = "CottonMC"
-		url = "https://server.bbkr.space/artifactory/libs-release"
-	}
+
 }
 
 dependencies {
@@ -64,8 +61,6 @@ dependencies {
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
-
-	modImplementation include("io.github.cottonmc:LibGui:8.0.2+1.20")
 }
 
 processResources {
