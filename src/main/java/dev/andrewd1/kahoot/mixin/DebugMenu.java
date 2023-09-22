@@ -1,6 +1,7 @@
 package dev.andrewd1.kahoot.mixin;
 
 import dev.andrewd1.kahoot.gui.KahootScreen;
+import dev.andrewd1.kahoot.question.KahootQuestions;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.gui.screen.GameMenuScreen;
@@ -20,9 +21,7 @@ public class DebugMenu extends Screen {
 	@Inject(at = @At("HEAD"), method = "initWidgets")
 	private void init(CallbackInfo info) {
 		this.addDrawableChild(
-				new ButtonWidget.Builder(Text.literal("DEBUG: Kahoot GUI"), (click) -> {
-					client.setScreen(new KahootScreen(client.currentScreen));
-				})
+				new ButtonWidget.Builder(Text.literal("DEBUG: Kahoot GUI"), (click) -> client.setScreen(new KahootScreen(client.currentScreen, KahootQuestions.getRandomShuffledQuestion())))
 						.dimensions(10, 10, 100, 20)
 						.build()
 		);
