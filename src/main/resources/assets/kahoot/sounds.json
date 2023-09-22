@@ -11,7 +11,7 @@
   },
   "gong": {
     "sounds": [
-      "kahoot:gong"
+      "kahoot:result/gong"
     ]
   },
   "answer_20s": {
@@ -19,6 +19,24 @@
       "kahoot:answer/20s/original",
       "kahoot:answer/20s/groovy",
       "kahoot:answer/20s/climbing"
+    ]
+  },
+  "correct": {
+    "sounds": [
+      "kahoot:result/correct/01",
+      "kahoot:result/correct/02",
+      "kahoot:result/correct/03",
+      "kahoot:result/correct/04",
+      "kahoot:result/correct/high"
+    ]
+  },
+  "incorrect": {
+    "sounds": [
+      "kahoot:result/incorrect/01",
+      "kahoot:result/incorrect/02",
+      "kahoot:result/incorrect/03",
+      "kahoot:result/incorrect/04",
+      "kahoot:result/incorrect/low"
     ]
   }
 }
