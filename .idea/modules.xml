@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minecraft-but-Kahoot.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Minecraft-but-Kahoot.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minecraft-but-Kahoot.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Minecraft-but-Kahoot.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/minecraft_but_kahoot.main.iml" filepath="$PROJECT_DIR$/.idea/modules/minecraft_but_kahoot.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/minecraft_but_kahoot.test.iml" filepath="$PROJECT_DIR$/.idea/modules/minecraft_but_kahoot.test.iml" />
     </modules>

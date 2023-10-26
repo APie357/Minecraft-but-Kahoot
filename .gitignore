@@ -26,3 +26,4 @@ replay_pid*
 # Temporary directories
 run/
 build/
+.gradle/
